@@ -1,3 +1,0 @@
-Tadros,Gamal,nm ,egypt,male,PHP - MYSQL - FLUTTER,Todo,123,jknl
-toto,gmy,assiut,usa,male,PHP - FLUTTER,toto,48451,yewtuya
-Tadros,rGamal,dfhd,egypt,male,MYSQL - .NET,Todo_Gm,tdy,hgfh
