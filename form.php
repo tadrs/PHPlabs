@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 
 <html>
     <body>
-        <form action="home.php" method="post">
+        <form action="save.php" method="POST">
             <div>
                 
                 <lable>first name</lable>
@@ -55,7 +55,7 @@ error_reporting(E_ALL);
                 <?php
                     $skils = ["PHP","MYSQL","FLUTTER",".NET"];
                     foreach($skils as $s){
-                        echo "<input type='checkbox' value='$s' name='skils'>$s";
+                        echo "<input type='checkbox' value='$s' name='skils[]'>$s";
                     }
                 ?>
 
