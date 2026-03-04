@@ -81,7 +81,7 @@ error_reporting(E_ALL);
                     ?>
                     <label class="form-label"><?php echo $rand; ?></label><br>
                     <input type="text" name="rand" class="form-control mb-3">
-                    <input type="submit" value="Submit" class="btn btn-primary">
+                    <input type="submit" value="Register" class="btn btn-primary" name='register'>
                 </div>
 
             </form>

@@ -8,7 +8,6 @@
         <th>First name</th>
         <th>Last name</th>
         <th>Email</th>
-        <th>Address</th>
         <th>Actions</th>
     </tr>
 
@@ -17,7 +16,7 @@
 try{
     
     $connection= new pdo("mysql:host=localhost;dbname=phpLabs","root","root");
-    $result=$connection->query("select id,f_name,l_name,email,address from emp");
+    $result=$connection->query("select id,f_name,l_name,email from emp");
 
     while($row=$result->fetch(PDO::FETCH_ASSOC)){
 
@@ -28,7 +27,7 @@ try{
 
         echo "<td>
                 <a href='view.php?id={$row['id']}' class='btn btn-info btn-sm'>View</a>
-                <a href='edit.php?id={$row['id']}' class='btn btn-warning btn-sm'>Edit</a>
+                <a href='update.php?id={$row['id']}' class='btn btn-warning btn-sm'>Edit</a>
                 <a href='delete.php?id={$row['id']}' class='btn btn-danger btn-sm'>Delete</a>
               </td>";
 
